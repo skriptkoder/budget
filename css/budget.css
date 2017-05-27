@@ -1,0 +1,47 @@
+@charset "iso-8859-1";
+/* CSS Document */
+
+
+td.prod_row{
+	color:black; 
+	text-align:center;
+}
+.budget_table, .budget_table a{
+	color:#FFF;
+}
+
+.green_gradient {
+	padding: 20px;
+	height: 400px;
+	/* For WebKit (Safari, Google Chrome etc) */
+	background: -webkit-gradient(linear, left top, left bottom, from(#CCC), to(#666));
+	/* For Mozilla/Gecko (Firefox etc) */
+	background: -moz-linear-gradient(top, #CCC, #666);
+	/* For Internet Explorer 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCC, endColorstr=#666);
+	/* For Internet Explorer 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCC, endColorstr=#666)";
+}
+
+
+/* other */
+
+#menu ul { list-style-type:none; margin:0; padding:0; position:relative; width:500px;}
+	#mainlevel-nav li { float:left; }
+	#mainlevel-nav a { width:60px;  float:left; text-align:center; display:block; text-decoration:none;
+	 }
+	/*#menu a:hover{ background:#fff; border:1px solid black; border-bottom:1px solid #214020;}*/
+	#mainlevel-nav a span { display:none;}
+	#mainlevel-nav a:hover span { background:#fff; display:block; position:absolute; top:50px; left:100; width:110px; text-align:left; color:#214020;}
+
+        
+        .budget_calculatorCel{
+            
+        }
+        .budget_calculatorCel:hover{
+            background-color: #FF9900;
+        }
+        
+        .row_header:hover{
+            background-color: #ccc;
+        }        
